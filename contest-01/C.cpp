@@ -16,19 +16,15 @@ void clean(std::string& s1, std::string& s2, std::string& s3,
 }
 
 void replace_first(std::string& s1) {
-    std::cout << "BEFORE - " << s1 << '\n';
-    std::cout << "FIRST - " << s1[0] << '\n';
-    if (s1[0] == 8 || s1[0] == 7) {
-        exit(-1);
+    if (s1[0] == 8 || (s1[0] == 7 && s1.size() == 11)) {
         s1.erase(s1.begin());
     } else {
         s1.insert(0, "495");
     }
-    std::cout << "AFTER - " << s1 << '\n';
 }
 
 int main() {
-    std::string n1, n2, n3, base, n1_pure, n2_pure, n3_pure, base_pure;
+    std::string n1, n2, n3, base;
 
     std::cin >> base >> n1 >> n2 >> n3;
 
@@ -38,13 +34,11 @@ int main() {
     replace_first(n2);
     replace_first(n3);
 
-    // for (const std::string& c : std::vector<std::string>{n1, n2, n3}) {
-    //     if (c.size() != 10 || c != base) {
-    //         std::cout << "NO\n";
-    //     } else {
-    //         std::cout << "YES\n";
-    //     }
-    // }
-
-    // std::cout << base << '\n' << n1 << '\n' << n2 << '\n' << n3 << '\n';
+    for (const std::string& c : std::vector<std::string>{n1, n2, n3}) {
+        if (c != base) {
+            std::cout << "NO\n";
+        } else {
+            std::cout << "YES\n";
+        }
+    }
 }
