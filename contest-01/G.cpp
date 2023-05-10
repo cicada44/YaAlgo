@@ -2,7 +2,6 @@
 
 int main() {
     int N, K, M, total, aod, aob, lb, ld;
-
     total = aod = aob = lb = ld = 0;
 
     std::cin >> N >> K >> M;
@@ -16,11 +15,6 @@ int main() {
         N = lb + ld;
 
         total += aob * aod;
-
-        // std::cout << "\naod - " << aod << '\n'
-        //           << "aob - " << aob << '\n'
-        //           << "ld - " << ld << '\n'
-        //           << "lb - " << lb << '\n';
     }
 
     std::cout << total;
