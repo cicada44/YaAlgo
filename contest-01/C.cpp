@@ -1,10 +1,16 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'C' task from contest №1 Yandex algorithm training 1.0
+// URL: https://contest.yandex.ru/contest/27393/problems/C/
+//
+//-----------------------------------------------------------------------------
+
 #include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
 
-void clean(std::string& s1, std::string& s2, std::string& s3,
-           std::string& base) {
+void clean(std::string& s1, std::string& s2, std::string& s3, std::string& base) {
     char stop_sym[] = {'-', '(', ')', '+'};
 
     for (const char& i : stop_sym) {
