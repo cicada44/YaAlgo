@@ -1,3 +1,10 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'F' Yandex algorithm training 1.0 task
+// URL: https://contest.yandex.ru/contest/27663/problems/F/
+//
+//-----------------------------------------------------------------------------
+
 #include <iostream>
 #include <set>
 #include <string>

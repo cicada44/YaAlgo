@@ -1,3 +1,10 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'D' Yandex algorithm training 1.0 task
+// URL: https://contest.yandex.ru/contest/27663/problems/D/
+//
+//-----------------------------------------------------------------------------
+
 #include <algorithm>
 #include <iostream>
 #include <set>

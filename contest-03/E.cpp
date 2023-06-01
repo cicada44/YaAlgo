@@ -1,3 +1,10 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'E' Yandex algorithm training 1.0 task
+// URL: https://contest.yandex.ru/contest/27663/problems/E/
+//
+//-----------------------------------------------------------------------------
+
 #include <iostream>
 #include <set>
 
@@ -16,8 +23,8 @@ int main() {
         n /= 10;
     }
 
-    cnt -= ((int)(s.find(x) != s.end()) + (int)(s.find(y) != s.end()) +
-            (int)(s.find(z) != s.end()));
+    cnt -=
+        ((int)(s.find(x) != s.end()) + (int)(s.find(y) != s.end()) + (int)(s.find(z) != s.end()));
 
     std::cout << cnt << '\n';
 }

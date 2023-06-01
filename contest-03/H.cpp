@@ -1,3 +1,10 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'H' Yandex algorithm training 1.0 task
+// URL: https://contest.yandex.ru/contest/27663/problems/H/
+//
+//-----------------------------------------------------------------------------
+
 #include <iostream>
 #include <unordered_set>
 
