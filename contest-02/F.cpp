@@ -1,9 +1,15 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'F' task from contest №2 Yandex algorithm training 1.0
+// URL: https://contest.yandex.ru/contest/27472/problems/F/
+//
+//-----------------------------------------------------------------------------
+
 #include <cmath>
 #include <iostream>
 #include <vector>
 
-bool is_symm(std::vector<int>::iterator iter1,
-             std::vector<int>::iterator iter2) {
+bool is_symm(std::vector<int>::iterator iter1, std::vector<int>::iterator iter2) {
     while (iter1 <= iter2) {
         if (*iter1++ != *iter2--) { return false; }
     }

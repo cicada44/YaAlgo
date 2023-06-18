@@ -1,3 +1,10 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'E' task from contest №2 Yandex algorithm training 1.0
+// URL: https://contest.yandex.ru/contest/27472/problems/E/
+//
+//-----------------------------------------------------------------------------
+
 #include <algorithm>
 #include <cmath>
 #include <iostream>
@@ -13,13 +20,11 @@ int main() {
         vec.push_back(tmp);
     }
 
-    int winner_pos =
-        std::distance(vec.begin(), std::max_element(vec.begin(), vec.end()));
+    int winner_pos = std::distance(vec.begin(), std::max_element(vec.begin(), vec.end()));
 
     int accum = -1;
     for (auto i = vec.begin(); i != std::prev(vec.end()); ++i) {
-        if (*i % 10 == 5 && winner_pos < std::distance(vec.begin(), i) &&
-            *std::next(i) < *i) {
+        if (*i % 10 == 5 && winner_pos < std::distance(vec.begin(), i) && *std::next(i) < *i) {
             accum = *i;
         }
     }
@@ -28,8 +33,6 @@ int main() {
         std::cout << 0;
     } else {
         std::stable_sort(vec.rbegin(), vec.rend());
-        std::cout << std::distance(vec.begin(),
-                                   std::find(vec.begin(), vec.end(), accum)) +
-                         1;
+        std::cout << std::distance(vec.begin(), std::find(vec.begin(), vec.end(), accum)) + 1;
     }
 }

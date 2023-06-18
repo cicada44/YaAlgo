@@ -1,3 +1,10 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'С' task from contest №2 Yandex algorithm training 1.0
+// URL: https://contest.yandex.ru/contest/27472/problems/С/
+//
+//-----------------------------------------------------------------------------
+
 #include <cmath>
 #include <iostream>
 #include <vector>
