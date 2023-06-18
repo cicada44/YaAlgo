@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------------
 //
-// Source code for 'H' Yandex algorithm training 1.0 task
+// Source code for 'H' task from contest №3 Yandex algorithm training 1.0 task
 // URL: https://contest.yandex.ru/contest/27663/problems/H/
 //
 //-----------------------------------------------------------------------------

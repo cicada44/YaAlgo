@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------------
 //
-// Source code for 'D' Yandex algorithm training 1.0 task
+// Source code for 'D' task from contest №3 Yandex algorithm training 1.0 task
 // URL: https://contest.yandex.ru/contest/27663/problems/D/
 //
 //-----------------------------------------------------------------------------
@@ -18,8 +18,8 @@ int main() {
     std::set<char> stop_words{};
 
     while (std::cin >> inputable) {
-        auto pos = std::find_first_of(inputable.begin(), inputable.end(),
-                                      stop_words.begin(), stop_words.end());
+        auto pos = std::find_first_of(inputable.begin(), inputable.end(), stop_words.begin(),
+                                      stop_words.end());
         if (pos != inputable.end()) inputable.erase(pos);
         words.insert(inputable);
     }
