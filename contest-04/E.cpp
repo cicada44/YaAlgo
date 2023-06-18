@@ -1,3 +1,10 @@
+//-----------------------------------------------------------------------------
+//
+// Source code for 'E' task from contest №4 Yandex algorithm training 1.0 task
+// URL: https://contest.yandex.ru/contest/27665/problems/E/
+//
+//-----------------------------------------------------------------------------
+
 #include <algorithm>
 #include <iostream>
 #include <map>
