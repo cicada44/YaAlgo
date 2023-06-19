@@ -1,0 +1,12 @@
+# Solutions for Yandex algorithms trainings 1.0
+
+| Contest   | Solutions                                                                                                                                                                                                                       |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Contest 1 | [A](./contest-01/A.cpp), [B](./contest-01/B.cpp), [C](./contest-01/C.cpp), [D](./contest-01/D.cpp), [F](./contest-01/F.cpp), [G](./contest-01/G.cpp), [H](./contest-01/H.cpp), [I](./contest-01/I.cpp)                          |
+| Contest 2 | [A](./contest-02/A.cpp), [B](./contest-02/B.cpp), [C](./contest-02/C.cpp), [D](./contest-02/D.cpp), [E](./contest-02/E.cpp), [F](./contest-02/F.cpp), [G](./contest-02/G.cpp)                                                   |
+| Contest 3 | [A](./contest-03/A.cpp), [B](./contest-03/B.cpp), [C](./contest-03/C.cpp), [D](./contest-03/D.cpp), [E](./contest-03/E.cpp), [F](./contest-03/F.cpp), [G](./contest-03/G.cpp), [H](./contest-03/H.cpp), [I](./contest-03/I.cpp) |
+| Contest 4 | [A](./contest-04/A.cpp), [B](./contest-04/B.cpp), [C](./contest-04/C.cpp), [D](./contest-04/D.cpp), [E](./contest-04/E.cpp), [F](./contest-04/F.cpp), [G](./contest-04/G.cpp), [I](./contest-04/I.cpp)                          |
+| Contest 5 | [A](./contest-05/A.cpp)                                                                                                                                                                                                         |
+| Contest 6 | [A](./contest-06/A.cpp)                                                                                                                                                                                                         |
+| Contest 7 | [A](./contest-07/A.cpp)                                                                                                                                                                                                         |
+| Contest 8 | [A](./contest-08/A.cpp)                                                                                                                                                                                                         |
